@@ -12,7 +12,7 @@
 </script>
 
 <div id="header">
-  <div>
+  <div id="tophead">
     <span id="placeholder">
       VACCARIA
     </span>
@@ -27,8 +27,10 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg></a>
     <a href="mailto:michaelomisol@protonmail.com">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"/></svg></a>
-    
+      <img id="logo" src="/src/lib/images/favicon.png" alt="segs">
     <p id="tagline">{tagline}</p>
+
+    
   </div>
   <nav>
     <a href="/">HOME</a>
@@ -53,6 +55,16 @@
 
   /* Local Styles */
 
+  #tophead {
+    overflow: hidden;
+  }
+
+  #logo {
+    margin-right: 1em;
+    float: right;
+    z-index: -1;
+  }
+
   #placeholder {
     display: inline-flex;
     margin-block-start: 0.4em;
@@ -64,6 +76,7 @@
 
   #tagline {
     margin-block-start: 0px;
+    margin-bottom: 0;
     margin-left: 1.6em;
     font-style: italic;
     font-size: 0.8em;
