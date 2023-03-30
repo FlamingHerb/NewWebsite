@@ -4,6 +4,7 @@
   import { page } from '$app/stores';
 
   let innerWidth = 0;
+  let height = 0;
 
   let tagline = "If you see this message, then that means you haven't loaded everything properly.";
   function taglineGenerator(){
@@ -18,8 +19,8 @@
 <svelte:window bind:innerWidth />
 
 <div id="header">
-  <div id="tophead">
-    <img id="logo" src="/images/fa.webp" alt="segs">
+  <div id="tophead" bind:clientHeight={height}>
+    <img id="logo" src="/images/fa.webp" style="height: {height+16}px;" alt="segs">
     <span id="placeholder">
       vaccaria
     </span>
@@ -88,15 +89,13 @@
     float: right;
   }
 
-  @media only screen and (max-width: 500px) {
-    #logo {
-        display: none;
-    }
-  }
+  
+  // @media only screen and (max-width: 520px) {
+  //   #logo {
+  //       display: none;
+  //   }
+  // }
 
-  #tophead {
-    overflow: hidden;
-  }
 
   #placeholder {
     font-family: 'Eastman Alternate Trial Medium', sans-serif;
