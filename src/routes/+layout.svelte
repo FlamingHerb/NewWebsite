@@ -2,11 +2,13 @@
   import "../app.scss";
   import taglineDatabase from '$lib/taglines.json';
 
-  let tagline = "";
-
-  let num = Math.floor(Math.random() * (taglineDatabase.length))
+  let tagline = "If you see this message, then that means you haven't loaded everything properly.";
+  function taglineGenerator(){
+    const num = Math.floor(Math.random() * (taglineDatabase.length))
+    tagline = taglineDatabase[num];
+  }
   
-  tagline = taglineDatabase[num];
+  taglineGenerator();
 </script>
 
 <div id="header">
@@ -63,7 +65,7 @@
     margin-block-start: 0px;
     margin-left: 1.6em;
     font-style: italic;
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   nav {
