@@ -1,5 +1,4 @@
 <script>
-  import "../app.scss";
   import taglineDatabase from '$lib/taglines.json';
 
   let logosrc = '/images/fa.png';
