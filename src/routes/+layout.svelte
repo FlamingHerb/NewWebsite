@@ -1,5 +1,6 @@
 <script>
   import taglineDatabase from '$lib/taglines.json';
+  import { navigating } from '$app/stores';
 
   let logosrc = '/images/fa.png';
 
@@ -9,7 +10,7 @@
     tagline = taglineDatabase[num];
   }
   
-  taglineGenerator();
+  $: if($navigating) taglineGenerator();
 </script>
 
 <div id="header">
