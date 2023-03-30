@@ -1,6 +1,6 @@
 <div id="body">
     <center>
-        <img src="/images/Anti_climb_paint_sign.jpg" alt="Anti Climbing Paint">
+        <img src="/images/Anti_climb_paint_sign.webp" alt="Anti Climbing Paint">
         <h1>Page not found. Take your medicine and try again.</h1>
     </center>
 </div>
