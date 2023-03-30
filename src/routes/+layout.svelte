@@ -3,7 +3,7 @@
   import { navigating } from '$app/stores';
   import { page } from '$app/stores';
 
-  let logosrc = '/images/fa.png';
+  let logosrc = '/images/fa.webp';
 
   let tagline = "If you see this message, then that means you haven't loaded everything properly.";
   function taglineGenerator(){
@@ -53,7 +53,7 @@
   }
 
   :global(body) {
-    background: url('/images/3D_Koleksi_foto38_gradient.jpg') repeat-x scroll 0 0 #1B2C4A; 
+    background: url('/images/3D_Koleksi_foto38_gradient.webp') repeat-x scroll 0 0 #1B2C4A; 
     margin: 0;
   }
 
