@@ -50,7 +50,7 @@
   }
 
   :global(body) {
-    background-image: url('/images/3D_Koleksi_foto38_gradient.jpg'); 
+    background: url('/images/3D_Koleksi_foto38_gradient.jpg') repeat-x scroll 0 0 #1B2C4A; 
     margin: 0;
   }
 
