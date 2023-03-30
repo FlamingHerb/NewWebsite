@@ -19,5 +19,8 @@
     "typescript": "^4.0.0",
     "vite": "^4.2.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "rfs": "^10.0.0"
+  }
 }

@@ -44,9 +44,10 @@
 <slot />
 
 <style lang="scss">
+  @import "../node_modules/rfs/scss";
   /* Global Styles */
   :global(p) {
-    font-size: 0.77em;
+    @include font-size(0.77rem);
   }
 
   :global(body) {
@@ -63,24 +64,29 @@
   #logo {
     margin-right: 1em;
     float: right;
-    z-index: -1;
+    z-index: -2;
   }
 
   #placeholder {
+    
     display: inline-flex;
     margin-block-start: 0.4em;
     margin-left: 0.4em;
     margin-right: 0.2em;
-    font-size: 48px;
+    
     font-weight: bold;
+
+    @include font-size(3rem);
   }
 
   #tagline {
+    
     margin-block-start: 0px;
     margin-block-end: 1.2em;
     margin-left: 1.6em;
     font-style: italic;
-    font-size: 0.8em;
+
+    @include font-size(0.8rem);
   }
 
   nav {
@@ -93,8 +99,8 @@
     border-bottom: 0;
 
     a {
+      @include font-size(1.25rem);
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 20px;
       text-decoration: none;
       color: #ffffff;
       padding: 0 0.9em;
@@ -107,7 +113,7 @@
 
   #header {
     background-color: #ffffff;
-    width: 976px;
+    max-width: 976px;
     margin: auto;
 
     border: 2px solid #303030;

@@ -7,6 +7,10 @@
 
 
 <style lang="scss">
+    @import "../node_modules/rfs/scss";
+    h1 {
+        @include font-size(2rem);
+    }
     img {
         max-width: 75%;
     }
