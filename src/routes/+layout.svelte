@@ -76,7 +76,7 @@
 
   #tagline {
     margin-block-start: 0px;
-    margin-bottom: 0;
+    margin-block-end: 1.2em;
     margin-left: 1.6em;
     font-style: italic;
     font-size: 0.8em;
