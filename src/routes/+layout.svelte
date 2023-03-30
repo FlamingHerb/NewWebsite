@@ -47,6 +47,7 @@
   }
 
   :global(body) {
+    background-image: url('/src/lib/images/3D_Koleksi_foto38_gradient.jpg'); 
     margin: 0;
   }
 
