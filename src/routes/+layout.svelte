@@ -72,7 +72,7 @@
     background-color: #ffffff;
     max-width: 976px;
     margin: auto;
-    //overflow: hidden;
+    overflow: hidden;
 
     border: 2px solid #303030;
     border-top: 0;
@@ -81,13 +81,22 @@
   :global(.container) {
     display: flex;
     align-items: center;
-    //overflow: hidden;
+    overflow: hidden;
     background-color: #ffffff;
     max-width: 976px;
     margin: auto;
 
     border: 2px solid #303030;
     border-top: 0;
+  }
+
+  :global(.mini-container) {
+    display: flex;
+    align-items: center;
+    //overflow: hidden;
+    background-color: #ffffff;
+    max-width: 976px;
+    margin: auto;
   }
 
   /* Local Styles */
