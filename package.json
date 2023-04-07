@@ -21,7 +21,6 @@
   },
   "type": "module",
   "dependencies": {
-    "rfs": "^10.0.0",
-    "svelte-carousel": "^1.0.25"
+    "rfs": "^10.0.0"
   }
 }

@@ -63,7 +63,7 @@
     }
 
   :global(body) {
-    overflow: hidden; /* Hide scrollbars */
+    //overflow: hidden; /* Hide scrollbars */
     background: url('/images/3D_Koleksi_foto38_gradient.webp') repeat-x scroll 0 0 #1B2C4A; 
     margin: 0;
   }
@@ -72,7 +72,7 @@
     background-color: #ffffff;
     max-width: 976px;
     margin: auto;
-    overflow: hidden;
+    //overflow: hidden;
 
     border: 2px solid #303030;
     border-top: 0;
@@ -81,7 +81,7 @@
   :global(.container) {
     display: flex;
     align-items: center;
-    overflow: hidden;
+    //overflow: hidden;
     background-color: #ffffff;
     max-width: 976px;
     margin: auto;
