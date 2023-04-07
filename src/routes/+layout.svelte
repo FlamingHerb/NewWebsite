@@ -43,7 +43,7 @@
 <div class="container nav">
   <a class="{$page.route.id === '/' ? 'current' : ''}" href="/">HOME</a>
   <a class="{$page.route.id === '/works' ? 'current' : ''}" href="/works">WORKS</a>
-  <a class="{$page.route.id === '/blog' ? 'current' : ''}" href="/blog">BLOG</a>
+  <!-- <a class="{$page.route.id === '/blog' ? 'current' : ''}" href="/blog">BLOG</a> -->
   <a class="{$page.route.id === '/aboutme' ? 'current' : ''}" href="/aboutme">ABOUT ME</a>
 </div>
 
