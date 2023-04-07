@@ -16,7 +16,7 @@
 	}
 
 </script>
-<div id="containerbody">
+<div class="container">
     <div id="intro">
         <h1>INTRODUCTION</h1>
         <figure id="authorimg">

@@ -63,6 +63,7 @@
     }
 
   :global(body) {
+    overflow: hidden; /* Hide scrollbars */
     background: url('/images/3D_Koleksi_foto38_gradient.webp') repeat-x scroll 0 0 #1B2C4A; 
     margin: 0;
   }
@@ -77,9 +78,7 @@
     border-top: 0;
   }
 
-  /* Local Styles */
-
-  .container {
+  :global(.container) {
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -90,6 +89,8 @@
     border: 2px solid #303030;
     border-top: 0;
   }
+
+  /* Local Styles */
 
   .header {
     justify-content: space-between;
