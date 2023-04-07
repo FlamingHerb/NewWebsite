@@ -17,7 +17,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="container">
+<div class="container header">
   <div id="tophead">
     <div id="leftside">
       <span id="placeholder">
@@ -81,7 +81,6 @@
 
   .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     overflow: hidden;
     background-color: #ffffff;
@@ -90,6 +89,34 @@
 
     border: 2px solid #303030;
     border-top: 0;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .nav {
+    background-color: #2f2f2f;
+    max-width: 976px;
+    padding: 8px 0;
+    margin: auto;
+
+    border-top: 0;
+    border-bottom: 0;
+
+    a {
+      text-align: center;
+      @include font-size(1.25rem);
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      color: #ffffff;
+      padding: 0 0.6em;
+
+      &:hover{
+        color: #ff9600;
+      }
+
+    }
   }
 
   #tophead {
@@ -108,6 +135,7 @@
 
   #medialinks {
     display: inline-flex;
+    gap: 5px;
   }
 
 
@@ -127,11 +155,10 @@
     margin-block-start: 0.4em;
     //margin-left: 0.4em;
     margin-right: 0.2em;
-    font-size: 3.5rem;
 
     font-weight: bold;
 
-    //@include font-size(3.5rem);
+    @include font-size(3.5rem);
   }
 
   #tagline {
@@ -140,34 +167,11 @@
     margin-block-end: 1.2em;
     //margin-left: 1.6em;
     font-style: italic;
-    font-size: 0.8rem;
 
-    //@include font-size(0.8rem);
+    @include font-size(0.8rem);
   }
 
-  .nav {
-    background-color: #2f2f2f;
-    max-width: 976px;
-    padding: 8px 0;
-    margin: auto;
-
-    border-top: 0;
-    border-bottom: 0;
-
-    a {
-      @include font-size(1.25rem);
-      font-family: Arial, Helvetica, sans-serif;
-      text-decoration: none;
-      color: #ffffff;
-      padding: 0 0.9em;
-
-      &:hover{
-        color: #ff9600;
-      }
-
-      
-    }
-  }
+  
 
   .current{
     text-decoration: underline;
