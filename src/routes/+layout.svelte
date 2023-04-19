@@ -111,6 +111,7 @@
 
   .header {
     justify-content: space-between;
+    padding-bottom: 0;
   }
 
   .nav {
