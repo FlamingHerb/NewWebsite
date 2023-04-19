@@ -1,14 +1,22 @@
 <script>
+
+    const d = new Date();
+    let year = d.getFullYear();
+    
+    let authorimg = "/images/witch.png";
 </script>
 
-<div class="container wrapper">
-    <h1 class="under-construction">
-        Hi, my name is Omi (of Vaccaria in the interwebs). The frontpage is currently under construction. So for now, enjoy this random picture of an emoji with sunglasses giving a thumbs up to everyone.
-    </h1>
-    <img class="img-cool" src="/images/coolbro.webp" alt="An emoji with sunglasses.">
-    <p class="under-construction">
-        If you want to check my works, go to <a href="/works">works</a>. If you want to know about me more, go to <a href="/aboutme">about me</a>.
-    </p>
+<head>
+    <title>Home | Vaccaria's Website</title>
+</head>
+
+<div class="container wrapper column-direction">
+    <figure id="authorimg">
+        <img src="{authorimg}" alt="A witch profile.">
+    </figure>
+    <h1>Hi, I'm Omi!</h1>
+    <p>Game developer. Game enthusiast. Software developer. Creative Writer. Learner. Reader. Lover. Leader.</p>
+    <p>Learn more about me either by clicking here or back up.</p>
 </div>
 
 <style lang="scss">
@@ -19,14 +27,13 @@
     }
 
     .img-cool {
-        margin:auto;
+        margin: auto;
+        margin-top: 3em;
         max-width: 75%;
         padding-right: 2em;
     }
 
     .under-construction {
-        text-align: center;
-        padding: 2em 0.5em;
         @include font-size(2rem);
     }
     

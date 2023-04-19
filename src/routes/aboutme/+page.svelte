@@ -16,6 +16,11 @@
 	}
 
 </script>
+
+<head>
+    <title>About Me | Vaccaria's Website</title>
+</head>
+
 <div id="containerbody">
     <div id="intro">
         <h1>INTRODUCTION</h1>

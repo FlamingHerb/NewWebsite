@@ -45,6 +45,7 @@
   <a class="{$page.route.id === '/works' ? 'current' : ''}" href="/works">WORKS</a>
   <!-- <a class="{$page.route.id === '/blog' ? 'current' : ''}" href="/blog">BLOG</a> -->
   <a class="{$page.route.id === '/aboutme' ? 'current' : ''}" href="/aboutme">ABOUT ME</a>
+  <a class="{$page.route.id === '/contact' ? 'current' : ''}" href="/contact">CONTACT ME</a>
 </div>
 
 <slot />
@@ -72,6 +73,7 @@
     background-color: #ffffff;
     max-width: 976px;
     margin: auto;
+    margin-bottom: 4em;
     overflow: hidden;
 
     border: 2px solid #303030;
@@ -97,6 +99,10 @@
     background-color: #ffffff;
     max-width: 976px;
     margin: auto;
+  }
+
+  :global(.column-direction){
+    flex-direction: column;
   }
 
   /* Local Styles */

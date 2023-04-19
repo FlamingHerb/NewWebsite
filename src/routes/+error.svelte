@@ -1,3 +1,7 @@
+<head>
+    <title>404 LITERALLY DOES NOT EXIST | Vaccaria's Unwebsite</title>
+</head>
+
 <div id="containerbody">
     <center>
         <img src="/images/Anti_climb_paint_sign.webp" alt="Anti Climbing Paint">
@@ -12,7 +16,7 @@
         @include font-size(2rem);
     }
     img {
-        max-width: 75%;
+        max-width: 60%;
     }
 
     div {
