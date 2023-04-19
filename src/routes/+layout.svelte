@@ -90,6 +90,8 @@
 
     border: 2px solid #303030;
     border-top: 0;
+
+    padding-bottom: 2em;
   }
 
   :global(.mini-container) {
