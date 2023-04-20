@@ -41,15 +41,7 @@
     </div>
     <div class="section">
         <h1>EXPERIENCE</h1>
-        <p>
-            Hello, I am Michael Sean Brian B. Omisol. Also known as Vaccaria. I am a {year - 2001} old game/software developer and writer, who is currently a {year - 2020}rd year BS Computer Science student in the University of the Philippines — Diliman. I have past experience in making games, writing stuff about games, and working with various game devs... including leading a group in the past.
-        </p>
-        <p>
-            If you've noticed why my site is somewhat archaic looking, that's because I made it that way. It's to honor a past that is already gone, fueled rather by whitespace-dominated websites that takes longer to load because your phone struggles to load up all the JavaScript boilerplates you need. But I digress. There's a lot more to learn, and lot to even shatter about modern designs.
-        </p>
-        <p>
-            If you want to learn more about me, there's the About Me page above. Just click on it. <a href="/aboutme">Or right here</a>.
-        </p>
+        <p>a</p>
     </div>
 </div>
 
@@ -85,11 +77,13 @@
 
     .section {
         
+        min-width: 85%;
+        max-width: 85%;
         margin-left: 1.2em;
         margin-right: 1.2em;
 
         p {
-            @include font-size(0.75rem);
+            @include font-size(1rem);
         }
     }
 </style>
