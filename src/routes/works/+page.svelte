@@ -1,64 +1,51 @@
 
 <head>
-    <title>About Me | Vaccaria's Website</title>
+    <title>Works | Vaccaria's Website</title>
 </head>
 
-<div class="container wrapper column-direction" style="margin-bottom: 4rem;">
-    <h1>Games</h1>
-    <table>
-        <!--
-        <tr>
-            <th>
-                Image
-            </th>
-            <th>
-                Description
-            </th>
-        </tr>
-        -->
-        <tr>
-            <td>
-                <a href="/"><img src="images/works_thumbnail/project_unity.png" alt="Game profile thumbnail."></a>
-            </td>
-            <td class="description">
-                <h1><a href="/">Project Unity</a></h1>
-                <p>A murder-mystery VN-like game where a detective is invited to a doomed party in an isolated mansion. This game is made for the partial fulfillment of the CS 192 class.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/"><img src="images/works_thumbnail/repent_loci_valentines.jpg" alt="Game profile thumbnail."></a>
-            </td>
-            <td class="description">
-                <h1><a href="/">-repent loci- useless apologies of a troublesome witch</a></h1>
-                <p>She keeps doing weird things, they all claim she's a witch. Why does she keep it up, while apologizing?</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/"><img src="images/works_thumbnail/sing.png" alt="Game profile thumbnail."></a>
-            </td>
-            <td class="description">
-                <h1><a href="/">Sa Ilalim ng Gabi</a></h1>
-                <p>A horror game taking the role of a priestess doing her best to avoid the chaos. This game is made for the partial fulfillment of the SCALE Program 2018-2020 and for the Theme Roulette 2 event.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/"><img src="images/works_thumbnail/swallows_descent.png" alt="Game profile thumbnail."></a>
-            </td>
-            <td class="description">
-                <h1><a href="/">The Swallow's Descent</a></h1>
-                <p>A mystery/whodunnit starring William Byske, an investigator for the Arcane Recon Corps.</p>
-            </td>
-        </tr>
-    </table>
-
+<div class="container column-direction" style="margin-bottom: 4rem;">
+    <h1>GAMES</h1>
+    <div class="mini-container row-direction">
+        <figure>
+            <img class="poster" src="images/works_poster/pu.png" alt="Project Unity Poster">
+            <figcaption>Project Unity</figcaption>
+        </figure>
+        <figure>
+            <img class="poster" src="images/works_poster/uaoatw.png" alt="Useless Apologies of a Troublesome Witch Poster">
+            <figcaption>Useless Apologies of a Troublesome Witch</figcaption>
+        </figure>
+        <figure>
+            <img class="poster" src="images/works_poster/sing.png" alt="Sa Ilalim ng Gabi Poster">
+            <figcaption>Sa Ilalim ng Gabi</figcaption>
+        </figure>
+        <figure>
+            <img class="poster" src="images/works_poster/tsw.png" alt="The Swallow's Descent Poster">
+            <figcaption>The Swallow's Descent</figcaption>
+        </figure>
+        
+        
+        
+    </div>
+    <h1>WORKS</h1>
 
 </div>
 
 <style lang="scss">
     @import "../node_modules/rfs/scss";
+
+    figure {
+        margin: 0;
+        max-width: 223.2px;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+    .poster {
+        width: 195.2px;
+        padding: 14px;
+    }
 
     h1 {
         display: block;
@@ -71,8 +58,6 @@
     p {
         text-align:justify;
     }
-
-
 
     table {
         border-collapse: collapse;

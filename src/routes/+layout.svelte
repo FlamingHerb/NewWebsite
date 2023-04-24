@@ -96,7 +96,9 @@
 
   :global(.mini-container) {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
     //overflow: hidden;
     background-color: #ffffff;
     max-width: 976px;
@@ -105,6 +107,10 @@
 
   :global(.column-direction){
     flex-direction: column;
+  }
+
+  :global(.row-direction){
+    flex-direction: row;
   }
 
   /* Local Styles */
