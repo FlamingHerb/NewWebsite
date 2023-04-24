@@ -8,26 +8,28 @@
     <div class="mini-container row-direction">
         <figure>
             <img class="poster" src="images/works_poster/pu.png" alt="Project Unity Poster">
-            <figcaption>Project Unity</figcaption>
+            <figcaption><strong>Project Unity</strong> (TBD)</figcaption>
         </figure>
         <figure>
             <img class="poster" src="images/works_poster/uaoatw.png" alt="Useless Apologies of a Troublesome Witch Poster">
-            <figcaption>-repent loci- Useless Apologies of a Troublesome Witch</figcaption>
+            <figcaption><strong>-repent loci- Useless Apologies of a Troublesome Witch</strong> (2020)</figcaption>
         </figure>
         <figure>
             <img class="poster" src="images/works_poster/sing.png" alt="Sa Ilalim ng Gabi Poster">
-            <figcaption>Sa Ilalim ng Gabi</figcaption>
+            <figcaption><strong>Sa Ilalim ng Gabi</strong> (2020)</figcaption>
         </figure>
         <figure>
             <img class="poster" src="images/works_poster/tsw.png" alt="The Swallow's Descent Poster">
-            <figcaption>The Swallow's Descent</figcaption>
+            <figcaption><strong>The Swallow's Descent</strong> (2016)</figcaption>
         </figure>
-        
-        
-        
     </div>
     <h1>WORKS</h1>
-
+    <div class="mini-container row-direction">
+        <figure>
+            <img class="poster" src="images/works_poster/mtgr.png" alt="Project Unity Poster">
+            <figcaption><strong>Multithreaded GREP Runner</strong> (2023)</figcaption>
+        </figure>
+    </div>
 </div>
 
 <style lang="scss">
@@ -40,6 +42,8 @@
 
     figcaption {
         text-align: center;
+        max-width: 195.2px;
+        padding: 0px 14px;
     }
 
     .poster {
