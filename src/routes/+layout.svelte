@@ -17,7 +17,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="container header">
+<div class="header">
   <div id="tophead">
     <div id="leftside">
       <span id="placeholder">
@@ -40,7 +40,7 @@
   </div>
   <img id="logo" src="/images/fa.webp" alt="segs">
 </div>
-<div class="container nav">
+<div class="nav">
   <a class="{$page.route.id === '/' ? 'current' : ''}" href="/">HOME</a>
   <a class="{$page.route.id === '/works' ? 'current' : ''}" href="/works">WORKS</a>
   <!-- <a class="{$page.route.id === '/blog' ? 'current' : ''}" href="/blog">BLOG</a> -->
@@ -57,13 +57,23 @@
   /* Local Styles */
 
   .header {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    //background-color: #ffffff;
+    margin: auto;
+
+    //border: 2px solid #303030;
+    //border-top: 0;
     justify-content: space-between;
     padding-bottom: 0;
   }
 
   .nav {
+    display: flex;
+    align-items: center;
     background-color: #2f2f2f;
-    max-width: 976px;
+    //max-width: 976px;
     padding: 8px 0;
     margin: auto;
 
