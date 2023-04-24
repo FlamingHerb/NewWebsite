@@ -28,9 +28,8 @@
             <img src="{authorimg}" alt="A witch profile." on:mouseover={handleMouseOver} on:focus={handleMouseOver} on:blur={handleMouseOut} on:mouseout={handleMouseOut}>
             <figcaption>{caption}</figcaption>
         </figure>
-        
         <p>
-            I am Michael Sean Brian B. Omisol. Also known as Vaccaria. I am a {year - 2001} old game/software developer and writer, who is currently a {year - 2020}rd year BS Computer Science student in the University of the Philippines — Diliman. I have past experience in making games, writing stuff about games, and working with various game devs, including leading a group in the past.
+            I am Michael Sean Brian B. Omisol. Also known as Vaccaria. I am a {year - 2001} old game/software developer and writer, currently a {year - 2020}rd year BS Computer Science student in the University of the Philippines — Diliman. I have past experience in making games, writing stuff about games, and working with various game devs, including leading a group in the past.
         </p>
     </div>
     <div class="section">
