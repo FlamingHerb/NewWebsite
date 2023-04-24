@@ -22,8 +22,16 @@
 <style lang="scss">
     @import "../node_modules/rfs/scss";
 
-    .wrapper {
-        flex-wrap: wrap;
+    .section {
+        
+        min-width: 85%;
+        max-width: 85%;
+        margin-left: 1.2em;
+        margin-right: 1.2em;
+
+        p {
+            @include font-size(1rem);
+        }
     }
 
     .img-cool {

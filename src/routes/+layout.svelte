@@ -69,6 +69,10 @@
     margin: 0;
   }
 
+  :global(.wrapper){
+      flex-wrap: wrap;
+  }
+
   :global(#containerbody) {
     background-color: #ffffff;
     max-width: 976px;

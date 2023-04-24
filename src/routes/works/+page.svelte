@@ -12,7 +12,7 @@
         </figure>
         <figure>
             <img class="poster" src="images/works_poster/uaoatw.png" alt="Useless Apologies of a Troublesome Witch Poster">
-            <figcaption>Useless Apologies of a Troublesome Witch</figcaption>
+            <figcaption>-repent loci- Useless Apologies of a Troublesome Witch</figcaption>
         </figure>
         <figure>
             <img class="poster" src="images/works_poster/sing.png" alt="Sa Ilalim ng Gabi Poster">
