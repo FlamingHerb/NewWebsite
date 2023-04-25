@@ -38,7 +38,7 @@
       <p id="tagline">{tagline}</p>
     </div>
   </div>
-  <img id="logo" src="/images/fa.webp" alt="segs">
+  <!-- <img id="logo" src="/images/fa.webp" alt="segs"> -->
 </div>
 <div class="nav">
   <a class="{$page.route.id === '/' ? 'current' : ''}" href="/">HOME</a>
@@ -95,9 +95,6 @@
     }
   }
 
-  #tophead {
-    min-height: 102px;
-  }
 
   #logo {
     margin-left: 1em;
