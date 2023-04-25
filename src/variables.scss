@@ -1,6 +1,7 @@
 /* Variables and mixins declared here will be available in all other SCSS files */
 @import "../node_modules/rfs/scss";
   /* Global Styles */
+
   :global(p) {
     @include font-size(1rem);
     font-family: Arial, Helvetica, sans-serif;
@@ -78,9 +79,10 @@
 }
 
 :global(body) {
-  //overflow: hidden; /* Hide scrollbars */
+  //overflow: visible; /* Hide scrollbars */
   //background: url('/images/3D_Koleksi_foto38_gradient.webp') repeat-x scroll 0 0 #1B2C4A; 
   margin: 0;
+  background-color: #10743c;
 }
 @keyframes move {
   100% {
