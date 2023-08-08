@@ -1,5 +1,10 @@
 <script>
 
+    import { PUBLIC_CURRENT_MODE } from '$env/static/public';
+    import { redirect } from '@sveltejs/kit';
+
+    
+
     const d = new Date();
     let year = d.getFullYear();
     

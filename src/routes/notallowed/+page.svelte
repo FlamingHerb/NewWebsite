@@ -9,7 +9,7 @@
   </script>
 
 <head>
-    <title>This cave is not open for business.</title>
+    <title>ACCESS DENIED.</title>
 </head>
 
 <div id="containerbody">

@@ -1,6 +1,5 @@
 <script>
   
-
   import taglineDatabase from '$lib/taglines.json';
   import { navigating } from '$app/stores';
   import { page } from '$app/stores';
