@@ -2,14 +2,14 @@
     // Disallows other users to access site... for now.
     import { PUBLIC_CURRENT_MODE } from '$env/static/public';
     let error_message = "Page not found. Take your medicine and try again.";
-    if (PUBLIC_CURRENT_MODE === "development") {
+    if (PUBLIC_CURRENT_MODE == "development") {
         error_message = "Yeah, you're not allowed to see this. Sorry :(";
     }
   
   </script>
 
 <head>
-    <title>404 LITERALLY DOES NOT EXIST | Vaccaria's Unwebsite</title>
+    <title>This cave is not open for business.</title>
 </head>
 
 <div id="containerbody">
