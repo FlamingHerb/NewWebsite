@@ -1,8 +1,14 @@
 <script>
-  
+  // import { PUBLIC_CURRENT_MODE } from '$env/static/public';
+  // import { redirect } from '@sveltejs/kit';
+  import { page } from '$app/stores';
+
+  // if (PUBLIC_CURRENT_MODE == "development" && $page.url.pathname != "/notallowed") {
+  //   throw redirect(307, '/notallowed');
+  // }
+
   import taglineDatabase from '$lib/taglines.json';
   import { navigating } from '$app/stores';
-  import { page } from '$app/stores';
 
   let innerWidth = 0;
 
@@ -51,7 +57,9 @@
   </div>
 
 </div>
+
 <slot />
+
 
 <style lang="scss">
   @import "../node_modules/rfs/scss";
