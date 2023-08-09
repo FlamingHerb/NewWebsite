@@ -1,5 +1,15 @@
+
 <head>
     <title>Classified Report</title>
+    <meta property="og:title" content="Your Title">
+    <meta name="twitter:title" content="Your Title">
+    
+    <meta name="description" content="Your Description">
+    <meta property="og:description" content="Your Description">
+    <meta name="twitter:description" content="Your Description">
+    
+    <meta property="og:image" content="img_url">
+    <meta name="twitter:image" content="img_url">
 </head>
 <center>
     <img style="width: 250px;" src="/images/langley/warning.png" alt="warning sign">
