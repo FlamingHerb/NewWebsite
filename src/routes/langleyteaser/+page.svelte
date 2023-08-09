@@ -1,15 +1,15 @@
 
 <head>
     <title>Classified Report</title>
-    <meta property="og:title" content="Your Title">
-    <meta name="twitter:title" content="Your Title">
+    <meta property="og:title" content="OLD LONDON REPORT">
+    <meta name="twitter:title" content="OLD LONDON REPORT">
     
-    <meta name="description" content="Your Description">
-    <meta property="og:description" content="Your Description">
-    <meta name="twitter:description" content="Your Description">
+    <meta name="description" content="Authorized personnel only.">
+    <meta property="og:description" content="Authorized personnel only.">
+    <meta name="twitter:description" content="Authorized personnel only.">
     
-    <meta property="og:image" content="img_url">
-    <meta name="twitter:image" content="img_url">
+    <meta property="og:image" content="/images/langley/img_preview.png">
+    <meta name="twitter:image" content="/images/langley/twitter_img_preview.png">
 </head>
 <center>
     <img style="width: 250px;" src="/images/langley/warning.png" alt="warning sign">
