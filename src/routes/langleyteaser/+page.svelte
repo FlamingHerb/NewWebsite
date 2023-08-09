@@ -1,6 +1,7 @@
 
 <head>
     <title>Classified Report</title>
+    <meta name="description" content="OLD LONDON REPORT">
     <meta property="og:title" content="OLD LONDON REPORT">
     <meta name="twitter:title" content="OLD LONDON REPORT">
     
