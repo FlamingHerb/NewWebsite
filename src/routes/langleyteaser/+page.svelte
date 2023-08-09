@@ -77,7 +77,7 @@
         font-family: 'DFLiSong Std W7';
         font-style: normal;
         font-weight: 400;
-        src: url('/fonts/DFLiSongStd-W7.ttf') format('opentype');
+        src: url('/fonts/DFLiSongStd-W7.otf') format('opentype');
     }
 
     @font-face {
